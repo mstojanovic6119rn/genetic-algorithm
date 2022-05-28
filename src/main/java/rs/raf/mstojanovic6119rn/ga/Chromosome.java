@@ -1,5 +1,7 @@
 package rs.raf.mstojanovic6119rn.ga;
 
+import java.util.function.Function;
+
 /**
  * Class which represents a chromosome. A superclass for binary and continual chromosome classes.
  *
@@ -17,6 +19,8 @@ public abstract class Chromosome<G> {
      */
     private final G[] genes;
 
+    private Function<G[], Double> lastFitnessFunction;
+
     /**
      * Constructor which takes an array of genes. The field length is calculated as a length of an array of genes.
      *
@@ -27,7 +31,20 @@ public abstract class Chromosome<G> {
         this.length = this.genes.length;
     }
 
+    public Double fitness(Function<G[], Double> function) {
+        this.lastFitnessFunction = function;
+        return this.fitness();
+    }
+
+    public Double fitness() {
+        return this.lastFitnessFunction.apply(this.genes);
+    }
+
     public G[] getGenes() {
         return genes;
+    }
+
+    void setLastFitnessFunction(Function<G[], Double> lastFitnessFunction) {
+        this.lastFitnessFunction = lastFitnessFunction;
     }
 }

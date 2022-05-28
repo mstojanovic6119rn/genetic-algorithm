@@ -70,6 +70,8 @@ public class Algorithm<G> {
      */
     public Chromosome<G> run(Function<G[], Double> fitness, double limit, int iterations,
                              int toCross, int toMutate) {
+        for (Chromosome<G> c: this.chromosomes)
+            c.setLastFitnessFunction(fitness);
         while (true) {
             this.chromosomes.sort(Comparator.comparing(a -> fitness.apply(a.getGenes())));
             this.chromosomes = this.chromosomes.subList(0, this.population);
