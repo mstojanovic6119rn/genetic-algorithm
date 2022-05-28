@@ -5,6 +5,7 @@ import rs.raf.mstojanovic6119rn.ga.continual.ContinualChromosome;
 import java.util.Random;
 
 public class BLXAlphaBetaCrossover implements ContinualChromosome.ContinualCrossover {
+
     private final Random rand = new Random();
 
     @Override public ContinualChromosome[] cross(ContinualChromosome chromosome1, ContinualChromosome chromosome2) {
