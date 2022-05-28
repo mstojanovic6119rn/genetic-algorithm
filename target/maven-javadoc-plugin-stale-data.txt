@@ -1,0 +1,52 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-private
+-source
+'11'
+-sourcepath
+'/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'genetic-algorithm 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/javadoc-bundle-options'
+-nohelp
+-use
+-version
+-windowtitle
+'genetic-algorithm 1.0-SNAPSHOT API'
+rs.raf.mstojanovic6119rn.ga
+rs.raf.mstojanovic6119rn.ga.binary
+rs.raf.mstojanovic6119rn.ga.binary.crossover
+rs.raf.mstojanovic6119rn.ga.binary.mutation
+rs.raf.mstojanovic6119rn.ga.continual
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/src/main/java = 1653074156374
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/constant-values.html = 1653747485040
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/index.html = 1653747485124
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/allclasses-index.html = 1653747485116
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/script.js = 1653747485128
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/overview-tree.html = 1653747485092
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/allpackages-index.html = 1653747485120
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/element-list = 1653747485016
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/overview-summary.html = 1653747485128
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/package-search-index.zip = 1653747485112
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/stylesheet.css = 1653747485128
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/index-all.html = 1653747485112
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/search.js = 1653747485128
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/member-search-index.js = 1653747485112
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/type-search-index.js = 1653747485112
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/package-search-index.js = 1653747485104
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/member-search-index.zip = 1653747485112
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/allclasses.html = 1653747485124
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/deprecated-list.html = 1653747485120
+/home/mstojanovic2000/Desktop/Java Libs/genetic-algorithm/target/site/apidocs/type-search-index.zip = 1653747485112
